@@ -78,7 +78,7 @@ We also specify the `<numClients>` as 1, which indicates that the tests are bein
 
 From this plugin, all the source code are instrumented and regeneraged. The regenerated source code can be found at "target/clover/src-instrumented". 
 
-Example:
+### Example:
 
 Original code segment:
 ``` java
