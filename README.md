@@ -104,6 +104,34 @@ After instrumentation:
 
 "clover-maven-plugin" is included in the build sections of the test module too. Additionally we need to specify `clover.server` system property as `true` in maven-surefire-plugin.
 
+``` xml
+            <plugin>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.22.0</version>
+                <configuration>
+                    <forkMode>once</forkMode>
+                    <systemProperties>
+                        <property>
+                            <name>clover.server</name>
+                            <value>true</value>
+                        </property>
+                    </systemProperties>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>run_tests</id>
+                        <phase>integration-test</phase>
+                        <goals>
+                            <goal>test</goal>
+                        </goals>
+                        <configuration>
+                            <skip>false</skip>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+```
+
 Also note that the `<cloverDatabase>` is pointing to the same location in both service and test module.
 
 
