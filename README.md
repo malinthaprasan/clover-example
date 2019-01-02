@@ -1,6 +1,6 @@
 # Using OpenClover for per-test code coverage generation
 
-OpenClover is a Java code coverage tool which was earlier known as Atlassian Clover. It was made open source in 2017. 
+[OpenClover](http://openclover.org/) is a Java code coverage tool which was earlier known as Atlassian Clover. It was made open source in 2017. 
 
 Compared to the well-known Java code coverage tool which is JaCoCo, clover has in-built capability to get per-test code coverage. The below sample is a demonstration of the above feature.
 
