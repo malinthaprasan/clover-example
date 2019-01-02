@@ -1,0 +1,3 @@
+#!/bin/bash
+
+java -classpath target/helloworld-2.6.4.jar:lib/clover-4.3.1.jar org.wso2.msf4j.example.Application
