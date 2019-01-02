@@ -1,9 +1,0 @@
-#!/bin/bash
-
-rm -r target/clover
-mvn clean
-mkdir target
-cd target
-ln -s /home/malintha/wso2apim/gitworkspace/clovertest/msf4j/samples/helloworld/target/clover .
-cd ..
-mvn install
