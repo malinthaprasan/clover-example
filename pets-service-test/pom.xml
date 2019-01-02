@@ -68,18 +68,6 @@
                     <forkMode>once</forkMode>
                     <systemProperties>
                         <property>
-                            <name>http.port</name>
-                            <value>${http.port}</value>
-                        </property>
-                        <property>
-                            <name>webapp.context</name>
-                            <value>${webapp.context}</value>
-                        </property>
-                        <property>
-                            <name>webapp.url</name>
-                            <value>${webapp.url}</value>
-                        </property>
-                        <property>
                             <name>clover.server</name>
                             <value>true</value>
                         </property>
@@ -104,7 +92,7 @@
                 <version>4.3.1</version>
                 <configuration>
                      <singleCloverDatabase>true</singleCloverDatabase>
-                    <cloverDatabase>${basedir}/../clover-db/clover.db</cloverDatabase>
+                     <cloverDatabase>${basedir}/../clover-db/clover.db</cloverDatabase>
                      <distributedCoverage>
                          <numClients>1</numClients>
                      </distributedCoverage>
