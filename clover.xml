@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1546411194281" clover="4.3.1">
+   <project name="Clover with a web application 1.0-SNAPSHOT" timestamp="1546411186167">
+      <metrics coveredelements="11" complexity="4" loc="79" methods="4" classes="2" statements="7" packages="1" coveredconditionals="0" coveredmethods="4" elements="11" ncloc="34" files="2" conditionals="0" coveredstatements="7"/>
+      <package name="org.wso2.msf4j.example">
+         <metrics coveredelements="11" complexity="4" loc="79" methods="4" classes="2" statements="7" coveredconditionals="0" coveredmethods="4" elements="11" ncloc="34" files="2" conditionals="0" coveredstatements="7"/>
+         <file path="/home/malintha/wso2apim/gitworkspace/clovertest/sample-msf4j/pets-service/src/main/java/org/wso2/msf4j/example/Application.java" name="Application.java">
+            <metrics coveredelements="2" coveredconditionals="0" complexity="1" loc="30" coveredmethods="1" methods="1" elements="2" classes="1" ncloc="9" statements="1" conditionals="0" coveredstatements="1"/>
+            <class name="Application">
+               <metrics coveredelements="2" coveredconditionals="0" complexity="1" coveredmethods="1" methods="1" elements="2" statements="1" conditionals="0" coveredstatements="1"/>
+            </class>
+            <line complexity="1" visibility="public" signature="main(String[]) : void" num="25" count="3" type="method"/>
+            <line num="26" count="3" type="stmt"/>
+         </file>
+         <file path="/home/malintha/wso2apim/gitworkspace/clovertest/sample-msf4j/pets-service/src/main/java/org/wso2/msf4j/example/PetService.java" name="PetService.java">
+            <metrics coveredelements="9" coveredconditionals="0" complexity="3" loc="49" coveredmethods="3" methods="3" elements="9" classes="1" ncloc="25" statements="6" conditionals="0" coveredstatements="6"/>
+            <class name="PetService">
+               <metrics coveredelements="9" coveredconditionals="0" complexity="3" coveredmethods="3" methods="3" elements="9" statements="6" conditionals="0" coveredstatements="6"/>
+            </class>
+            <line complexity="1" visibility="public" signature="getPets() : String" num="29" count="1" type="method"/>
+            <line num="32" count="1" type="stmt"/>
+            <line num="33" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="getPet(String) : String" num="36" count="2" type="method"/>
+            <line num="39" count="2" type="stmt"/>
+            <line num="40" count="2" type="stmt"/>
+            <line complexity="1" visibility="public" signature="helloPet(String) : String" num="43" count="1" type="method"/>
+            <line num="46" count="1" type="stmt"/>
+            <line num="47" count="1" type="stmt"/>
+         </file>
+      </package>
+   </project>
+   <testproject name="Clover with a web application 1.0-SNAPSHOT" timestamp="1546411186167">
+      <metrics coveredelements="24" complexity="4" loc="45" methods="4" classes="1" statements="20" packages="1" coveredconditionals="0" coveredmethods="4" elements="24" ncloc="34" files="1" conditionals="0" coveredstatements="20"/>
+      <package name="org.wso2.sample.msf4j.test">
+         <metrics coveredelements="24" complexity="4" loc="45" methods="4" classes="1" statements="20" coveredconditionals="0" coveredmethods="4" elements="24" ncloc="34" files="1" conditionals="0" coveredstatements="20"/>
+         <file path="/home/malintha/wso2apim/gitworkspace/clovertest/sample-msf4j/pets-service-test/src/test/java/org/wso2/sample/msf4j/test/RemoteTest.java" name="RemoteTest.java">
+            <metrics coveredelements="24" coveredconditionals="0" complexity="4" loc="45" coveredmethods="4" methods="4" elements="24" classes="1" ncloc="34" statements="20" conditionals="0" coveredstatements="20"/>
+            <class name="RemoteTest">
+               <metrics coveredelements="24" complexity="4" methods="4" testruns="3" statements="20" coveredconditionals="0" coveredmethods="4" elements="24" testfailures="0" testduration="1.095" conditionals="0" coveredstatements="20" testpasses="3"/>
+            </class>
+            <line complexity="1" visibility="public" signature="RemoteTest(String)" num="13" count="3" type="method"/>
+            <line num="14" count="3" type="stmt"/>
+            <line num="15" count="3" type="stmt"/>
+            <line complexity="1" visibility="public" signature="testGetPets() : void" num="18" testsuccess="true" count="1" testduration="0.044" type="method"/>
+            <line num="19" count="1" type="stmt"/>
+            <line num="20" count="1" type="stmt"/>
+            <line num="21" count="1" type="stmt"/>
+            <line num="22" count="1" type="stmt"/>
+            <line num="23" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="testGetPet() : void" num="26" testsuccess="true" count="1" testduration="0.025" type="method"/>
+            <line num="27" count="1" type="stmt"/>
+            <line num="28" count="1" type="stmt"/>
+            <line num="29" count="1" type="stmt"/>
+            <line num="30" count="1" type="stmt"/>
+            <line num="31" count="1" type="stmt"/>
+            <line complexity="1" visibility="public" signature="testGetPetAndStatus() : void" num="34" testsuccess="true" count="1" testduration="1.026" type="method"/>
+            <line num="35" count="1" type="stmt"/>
+            <line num="36" count="1" type="stmt"/>
+            <line num="37" count="1" type="stmt"/>
+            <line num="38" count="1" type="stmt"/>
+            <line num="39" count="1" type="stmt"/>
+            <line num="41" count="1" type="stmt"/>
+            <line num="42" count="1" type="stmt"/>
+            <line num="43" count="1" type="stmt"/>
+         </file>
+      </package>
+   </testproject>
+</coverage>

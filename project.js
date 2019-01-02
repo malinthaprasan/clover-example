@@ -1,0 +1,2 @@
+processClover (  {"children":["org/wso2/msf4j/example/"],"name":"Clover database Wed Jan 2 2019 12:09:42 IST","stats":{"AvgMethodComplexity":1,"Complexity":4,"ErroneousTests":0,"FailingTests":0,"FilteredElements":0,"PassingTests":0,"PcErroneousTests":-1,"PcFailingTests":-1,"PcPassingTests":-1,"TestExecutionTime":0,"Tests":0,"TotalChildren":1,"TotalPercentageCovered":100,"TotalStatements":7,"UncoveredElements":0},"title":"Clover with a web application 1.0-SNAPSHOT"}
+ ); 
