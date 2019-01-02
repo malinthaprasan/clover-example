@@ -1,5 +1,9 @@
 # Using OpenClover for per-test code coverage generation
 
+OpenClover is a Java code coverage tool which was earlier known as Atlassian Clover. It was made open source in 2017. 
+
+Compared to the well-known Java code coverage tool which is JaCoCo, clover has in-built capability to get per-test code coverage. The below sample is a demonstration of the above feature.
+
 ## Running the sample:
 
 1. Build the `pets-service` module by running `mvn clean install`
@@ -31,12 +35,11 @@ This will run the tests and generates an static html site including the analysis
 
 The generated site for this example is available here:
 
-
 ## Things to note:
 
-"clover-maven-plugin" is included in the build sections of the service module. This is responsible for analysing the source code, instrument the source with clover specific instructions to track the code that are being executed. From this analysis, it creates a database. Here we specify the <cloverDatabase> location where the database is created. 
+"clover-maven-plugin" is included in the build sections of the service module. This is responsible for analysing the source code, instrument the source with clover specific instructions to track the code that are being executed. From this analysis, it creates a database. Here we specify the `<cloverDatabase>` location where the database is created. 
 
-We also specify the <numClients> as 1, which indicates that the tests are being exectuted by 1 remote clients.
+We also specify the `<numClients>` as 1, which indicates that the tests are being exectuted by 1 remote client.
 
 
 ``` xml
@@ -101,7 +104,7 @@ After instrumentation:
 
 "clover-maven-plugin" is included in the build sections of the test module too. Additionally we need to specify `clover.server` system property as `true` in maven-surefire-plugin.
 
-Also note that the <cloverDatabase> is pointing to the same location in both service and test module.
+Also note that the `<cloverDatabase>` is pointing to the same location in both service and test module.
 
 
 
