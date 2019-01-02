@@ -35,6 +35,9 @@ This will run the tests and generates an static html site including the analysis
 
 The generated site for this example is available here:
 
+* [Dashboard](https://malinthaprasan.github.io/clover-example)
+* [Sample class coverage (PetService)](https://malinthaprasan.github.io/clover-example/org/wso2/msf4j/example/PetService.html)
+
 ## Things to note:
 
 "clover-maven-plugin" is included in the build sections of the service module. This is responsible for analysing the source code, instrument the source with clover specific instructions to track the code that are being executed. From this analysis, it creates a database. Here we specify the `<cloverDatabase>` location where the database is created. 
